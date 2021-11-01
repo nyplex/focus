@@ -27,7 +27,7 @@ body {
   color: #fff;
 }
 .navbar .dropdown-menu {
-  background-color: #0e0e0e;
+  background-color: #363461;
   border: solid 1px #fdad00;
 }
 .navbar .dropdown-menu .dropdown-item {
@@ -75,6 +75,17 @@ header img {
   padding: 50px;
 }
 
+main {
+  margin-top: 100px;
+}
+main section {
+  margin-bottom: 200px;
+}
+@media screen and (max-width: 992px) {
+  main section {
+    margin-bottom: 80px;
+  }
+}
 main svg {
   max-height: 350px;
   height: auto;
@@ -140,7 +151,13 @@ main #strategy-button {
   right: 12px;
   left: unset;
 }
-main button::before, main button::after {
+@media screen and (max-width: 992px) {
+  main #strategy-button {
+    right: 0;
+  }
+}
+main button::before,
+main button::after {
   box-sizing: inherit;
   content: "";
   position: absolute;
@@ -148,7 +165,8 @@ main button::before, main button::after {
 main .draw {
   transition: color 0.25s;
 }
-main .draw::before, main .draw::after {
+main .draw::before,
+main .draw::after {
   border: 2px solid transparent;
   width: 0;
   height: 0;
@@ -161,7 +179,8 @@ main .draw::after {
   bottom: 0;
   right: 0;
 }
-main .draw:hover::before, main .draw:hover::after {
+main .draw:hover::before,
+main .draw:hover::after {
   width: 100%;
   height: 100%;
 }
@@ -197,13 +216,6 @@ footer {
   padding: 20px 0;
   color: #fff;
   font-family: "Poppins";
-}
-footer h4 {
-  margin: 0 0 10px 0;
-  color: #fdad00;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 20px;
 }
 footer p {
   font-weight: 200;

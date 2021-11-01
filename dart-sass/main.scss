@@ -15,9 +15,9 @@ body {
     color: #fff;
 }
 
-
 .navbar {
     background-color: #0e0e0e;
+
     .navbar-brand {
         border-bottom: solid 2px transparent;
         font-size: 2.5rem;
@@ -38,7 +38,7 @@ body {
     }
 
     .dropdown-menu {
-        background-color: $black;
+        background-color: #363461;
         border: solid 1px $yellow;
 
         .dropdown-item {
@@ -90,6 +90,7 @@ body {
 
 header {
     border-bottom: solid 2px $purple;
+
     img {
         width: 100%;
         max-width: 1440px;
@@ -98,16 +99,25 @@ header {
 }
 
 main {
+    margin-top: 100px;
+    section {
+        margin-bottom: 200px;
+        @media screen and (max-width: 992px) {
+            margin-bottom: 80px;
+        }
+    }
     svg {
         max-height: 350px;
         height: auto;
         max-width: 450px;
         width: 100%;
         min-width: 225px;
+
         @media screen and(max-width: 576px) {
             width: 50%;
         }
     }
+
     h2 {
         font-weight: 600;
         font-family: 'Tajawal';
@@ -116,20 +126,24 @@ main {
         position: absolute;
         top: 0;
         left: 12px;
+
         @media screen and(max-width: 992px) {
             position: static !important;
             left: 0;
             right: 0;
         }
     }
+
     #strategy-h2 {
         right: 12px;
     }
+
     p {
         font-family: 'Ubuntu';
         font-size: 20px;
         font-weight: 400;
     }
+
     button {
         background: none;
         border: 0;
@@ -147,71 +161,90 @@ main {
         position: absolute;
         bottom: 0;
         left: 12px;
+
         @media screen and(max-width: 992px) {
             position: relative;
             left: 0;
             right: 0;
         }
     }
+
     #strategy-button {
+        @media screen and(max-width: 992px) {
+            right: 0;
+        }
+
         right: 12px;
         left: unset;
     }
 
-      button::before, button::after {
+
+    button::before,
+    button::after {
         box-sizing: inherit;
         content: "";
         position: absolute;
-      }
-      
-      .draw {
+    }
+
+    .draw {
         transition: color 0.25s;
-      }
-      .draw::before, .draw::after {
+    }
+
+    .draw::before,
+    .draw::after {
         border: 2px solid transparent;
         width: 0;
         height: 0;
-      }
-      .draw::before {
+    }
+
+    .draw::before {
         top: 0;
         left: 0;
-      }
-      .draw::after {
+    }
+
+    .draw::after {
         bottom: 0;
         right: 0;
-      }
-      .draw:hover::before, .draw:hover::after {
+    }
+
+    .draw:hover::before,
+    .draw:hover::after {
         width: 100%;
         height: 100%;
-      }
-      .draw:hover::before {
+    }
+
+    .draw:hover::before {
         border-top-color: $blue;
         border-right-color: $blue;
         transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-      }
-      .draw:hover::after {
+    }
+
+    .draw:hover::after {
         border-bottom-color: $blue;
         border-left-color: $blue;
         transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-      }
-      
-      .meet:hover {
+    }
+
+    .meet:hover {
         color: $blue;
-      }
-      .meet::after {
+    }
+
+    .meet::after {
         top: 0;
         left: 0;
-      }
-      .meet:hover::before {
+    }
+
+    .meet:hover::before {
         border-top-color: $blue;
         border-right-color: $blue;
-      }
-      .meet:hover::after {
+    }
+
+    .meet:hover::after {
         border-bottom-color: $blue;
         border-left-color: $blue;
         transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
-      }
-      
+    }
+
 }
 
 footer {
@@ -219,14 +252,6 @@ footer {
     padding: 20px 0;
     color: #fff;
     font-family: "Poppins";
-
-    h4 {
-        margin: 0 0 10px 0;
-        color: $yellow;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 20px;
-    }
 
     p {
         font-weight: 200;
@@ -291,6 +316,7 @@ footer {
         font-family: 'Ubuntu';
         font-weight: 100;
         font-size: 15px;
+
         li a {
             &:hover {
                 color: $yellow;
