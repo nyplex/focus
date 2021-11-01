@@ -9,10 +9,6 @@ body {
   color: #fff;
 }
 
-h2 {
-  font-family: "Tajawal";
-}
-
 .navbar {
   background-color: #0e0e0e;
 }
@@ -21,7 +17,7 @@ h2 {
   font-size: 2.5rem;
 }
 .navbar .navbar-brand:hover {
-  color: #FFBB00;
+  color: #fdad00;
   border-bottom: solid 2px transparent;
 }
 .navbar .navbar-brand:hover span {
@@ -32,7 +28,7 @@ h2 {
 }
 .navbar .dropdown-menu {
   background-color: #0e0e0e;
-  border: solid 1px #FFBB00;
+  border: solid 1px #fdad00;
 }
 .navbar .dropdown-menu .dropdown-item {
   width: fit-content;
@@ -60,30 +56,114 @@ h2 {
   border-bottom: solid 2px transparent;
 }
 .navbar a span {
-  color: #FFBB00;
+  color: #fdad00;
 }
 .navbar a:hover {
-  border-bottom: solid 2px #FFBB00;
+  border-bottom: solid 2px #fdad00;
   color: #fff;
 }
 .navbar .navbar-toggler i {
   color: #fff;
 }
 
+header {
+  border-bottom: solid 2px #5249ff8e;
+}
 header img {
   width: 100%;
+  max-width: 1440px;
   padding: 50px;
 }
 
+main h2 {
+  font-weight: 600;
+  font-family: "Tajawal";
+  font-size: 45px;
+  color: #fdad00;
+}
+main p {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 400;
+}
+main button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  box-shadow: inset 0 0 0 2px #6c63ff;
+  color: #6c63ff;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+main button::before, main button::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+main .draw {
+  transition: color 0.25s;
+}
+main .draw::before, main .draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+main .draw::before {
+  top: 0;
+  left: 0;
+}
+main .draw::after {
+  bottom: 0;
+  right: 0;
+}
+main .draw:hover::before, main .draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+main .draw:hover::before {
+  border-top-color: #fdad00;
+  border-right-color: #fdad00;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+main .draw:hover::after {
+  border-bottom-color: #fdad00;
+  border-left-color: #fdad00;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+main .meet:hover {
+  color: #fdad00;
+}
+main .meet::after {
+  top: 0;
+  left: 0;
+}
+main .meet:hover::before {
+  border-top-color: #fdad00;
+  border-right-color: #fdad00;
+}
+main .meet:hover::after {
+  border-bottom-color: #fdad00;
+  border-left-color: #fdad00;
+  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+
 footer {
-  border-top: solid 2px #FFBB00;
+  border-top: solid 2px #5249ff8e;
   padding: 20px 0;
   color: #fff;
   font-family: "Poppins";
 }
 footer h4 {
   margin: 0 0 10px 0;
-  color: #FFBB00;
+  color: #fdad00;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
@@ -139,7 +219,7 @@ footer .footer-links {
   font-size: 15px;
 }
 footer .footer-links li a:hover {
-  color: #FFBB00;
+  color: #fdad00;
 }
 
 /*# sourceMappingURL=style.css.map */
