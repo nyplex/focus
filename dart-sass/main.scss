@@ -98,6 +98,16 @@ header {
 }
 
 main {
+    svg {
+        max-height: 350px;
+        height: auto;
+        max-width: 450px;
+        width: 100%;
+        min-width: 225px;
+        @media screen and(max-width: 576px) {
+            width: 50%;
+        }
+    }
     h2 {
         font-weight: 600;
         font-family: 'Tajawal';
@@ -142,10 +152,12 @@ main {
             left: 0;
             right: 0;
         }
-      }
-      #strategy-button {
-          right: 12px;
-      }
+    }
+    #strategy-button {
+        right: 12px;
+        left: unset;
+    }
+
       button::before, button::after {
         box-sizing: inherit;
         content: "";

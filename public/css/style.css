@@ -75,6 +75,18 @@ header img {
   padding: 50px;
 }
 
+main svg {
+  max-height: 350px;
+  height: auto;
+  max-width: 450px;
+  width: 100%;
+  min-width: 225px;
+}
+@media screen and (max-width: 576px) {
+  main svg {
+    width: 50%;
+  }
+}
 main h2 {
   font-weight: 600;
   font-family: "Tajawal";
@@ -126,6 +138,7 @@ main button {
 }
 main #strategy-button {
   right: 12px;
+  left: unset;
 }
 main button::before, main button::after {
   box-sizing: inherit;
