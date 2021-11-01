@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+}
+
+.text-white {
+  color: #fff;
+}
+
+h2 {
+  font-family: "Tajawal";
+}
+
+.navbar {
+  background-color: #0e0e0e;
+}
+.navbar .navbar-brand {
+  border-bottom: solid 2px transparent;
+  font-size: 2.5rem;
+}
+.navbar .navbar-brand:hover {
+  color: #FFBB00;
+  border-bottom: solid 2px transparent;
+}
+.navbar .navbar-brand:hover span {
+  color: #fff;
+}
+.navbar .nav-link:focus {
+  color: #fff;
+}
+.navbar .dropdown-menu {
+  background-color: #0e0e0e;
+  border: solid 1px #FFBB00;
+}
+.navbar .dropdown-menu .dropdown-item {
+  width: fit-content;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+}
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.navbar ul {
+  justify-content: right;
+}
+.navbar li {
+  padding: 0.5rem;
+}
+.navbar a {
+  padding: 0 !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #fff;
+  font-family: "Ubuntu";
+  border-bottom: solid 2px transparent;
+}
+.navbar a span {
+  color: #FFBB00;
+}
+.navbar a:hover {
+  border-bottom: solid 2px #FFBB00;
+  color: #fff;
+}
+.navbar .navbar-toggler i {
+  color: #fff;
+}
+
+header img {
+  width: 100%;
+  padding: 50px;
+}
+
+footer {
+  border-top: solid 2px #FFBB00;
+  padding: 20px 0;
+  color: #fff;
+  font-family: "Poppins";
+}
+footer h4 {
+  margin: 0 0 10px 0;
+  color: #FFBB00;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+footer p {
+  font-weight: 200;
+}
+footer span {
+  font-weight: 100;
+  font-size: 12px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+footer ul li {
+  display: inline;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .social-links li {
+  display: inline;
+}
+footer .social-links li:hover {
+  opacity: 0.7;
+}
+footer .social-links i {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20%;
+}
+footer .social-links .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+footer .social-links .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+footer .social-links .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+footer .social-links .fa-instagram {
+  background: linear-gradient(90deg, #f2bd5c 0%, #d02674 35%, #5155c8 100%);
+  color: white;
+}
+footer .footer-links {
+  font-family: "Ubuntu";
+  font-weight: 100;
+  font-size: 15px;
+}
+footer .footer-links li a:hover {
+  color: #FFBB00;
+}
+
+/*# sourceMappingURL=style.css.map */
