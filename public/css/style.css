@@ -291,9 +291,6 @@ aside h2 {
   max-width: 150px;
   padding: 15px;
 }
-.background-client .clients-section .border-white {
-  border-width: 2px;
-}
 
 .get-quote p {
   font-size: 22px;
@@ -378,6 +375,18 @@ footer .footer-links {
 }
 footer .footer-links li a:hover {
   color: #fdad00;
+}
+
+.header-services {
+  background-image: url("../media/blue-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.header-services h1 {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
