@@ -1,11 +1,13 @@
 .header-services {
-    background-image: url("../media/blue-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 150px;
+    border: none;
     h1 {
         text-transform: uppercase;
         font-weight: 600;
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+    p {
+        font-size: 25px;
     }
 }

@@ -60,7 +60,7 @@ body {
 }
 
 .navbar {
-  background-color: #0e0e0e;
+  background-color: #191729;
 }
 .navbar .navbar-brand {
   border-bottom: solid 2px transparent;
@@ -378,15 +378,17 @@ footer .footer-links li a:hover {
 }
 
 .header-services {
-  background-image: url("../media/blue-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 150px;
+  border: none;
 }
 .header-services h1 {
   text-transform: uppercase;
   font-weight: 600;
+  padding-top: 50px;
+  padding-left: 25px;
+}
+.header-services p {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
