@@ -13,6 +13,52 @@ body {
   color: #fff;
 }
 
+.text-yellow {
+  color: #fdad00;
+}
+
+.text-blue {
+  color: #6c63ff;
+}
+
+.text-purple {
+  color: #5249ff8e;
+}
+
+.ubuntu {
+  font-family: "Ubuntu";
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.tajawal {
+  font-family: "Tajawal";
+}
+
+.hr {
+  border-bottom: solid 5px #6c63ff;
+  opacity: 1;
+  width: 50%;
+  margin: -50px auto 75px auto;
+}
+
+.contact-icon {
+  position: fixed;
+  color: #fff;
+  font-size: 40px;
+  bottom: 20px;
+  right: 30px;
+  border: solid 3px #5249ff8e;
+  padding: 10px;
+  border-radius: 100%;
+}
+.contact-icon:hover {
+  color: #fdad00;
+  cursor: pointer;
+}
+
 .navbar {
   background-color: #0e0e0e;
 }
@@ -78,6 +124,65 @@ header img {
   width: 100%;
   max-width: 1440px;
   padding: 50px;
+}
+
+.draw {
+  transition: color 0.25s;
+}
+
+.draw::before,
+.draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.draw::before {
+  top: 0;
+  left: 0;
+}
+
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+
+.draw:hover::before,
+.draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.draw:hover::before {
+  border-top-color: #6c63ff;
+  border-right-color: #6c63ff;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+
+.draw:hover::after {
+  border-bottom-color: #6c63ff;
+  border-left-color: #6c63ff;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+.meet:hover {
+  color: #6c63ff;
+}
+
+.meet::after {
+  top: 0;
+  left: 0;
+}
+
+.meet:hover::before {
+  border-top-color: #6c63ff;
+  border-right-color: #6c63ff;
+}
+
+.meet:hover::after {
+  border-bottom-color: #6c63ff;
+  border-left-color: #6c63ff;
+  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
 main {
@@ -167,57 +272,16 @@ main button::after {
   content: "";
   position: absolute;
 }
-main .draw {
-  transition: color 0.25s;
-}
-main .draw::before,
-main .draw::after {
-  border: 2px solid transparent;
-  width: 0;
-  height: 0;
-}
-main .draw::before {
-  top: 0;
-  left: 0;
-}
-main .draw::after {
-  bottom: 0;
-  right: 0;
-}
-main .draw:hover::before,
-main .draw:hover::after {
-  width: 100%;
-  height: 100%;
-}
-main .draw:hover::before {
-  border-top-color: #6c63ff;
-  border-right-color: #6c63ff;
-  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-}
-main .draw:hover::after {
-  border-bottom-color: #6c63ff;
-  border-left-color: #6c63ff;
-  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-}
-main .meet:hover {
-  color: #6c63ff;
-}
-main .meet::after {
-  top: 0;
-  left: 0;
-}
-main .meet:hover::before {
-  border-top-color: #6c63ff;
-  border-right-color: #6c63ff;
-}
-main .meet:hover::after {
-  border-bottom-color: #6c63ff;
-  border-left-color: #6c63ff;
-  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+
+aside h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Tajawal";
 }
 
 .background-client {
-  background-image: url("../media/city.jpg");
+  background-image: url("../media/clients-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,6 +289,35 @@ main .meet:hover::after {
 }
 .background-client .clients-section img {
   max-width: 150px;
+  padding: 15px;
+}
+.background-client .clients-section .border-white {
+  border-width: 2px;
+}
+
+.get-quote p {
+  font-size: 22px;
+}
+.get-quote button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 10px 15px;
+  box-shadow: inset 0 0 0 2px #fdad00;
+  color: #fdad00;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins";
+  font-size: 20px;
+  display: block;
+}
+.get-quote button::before,
+.get-quote button::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
 }
 
 footer {
