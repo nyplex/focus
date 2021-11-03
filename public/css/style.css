@@ -378,17 +378,38 @@ footer .footer-links li a:hover {
 }
 
 .header-services {
-  height: 150px;
   border: none;
 }
 .header-services h1 {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   padding-top: 50px;
   padding-left: 25px;
 }
 .header-services p {
   font-size: 25px;
+}
+
+.main-services .card {
+  background-color: #191729;
+  border: solid 3px #5249ff8e;
+  border-radius: 2%;
+}
+.main-services .card h5 {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.main-services .card p {
+  color: #fff;
+  text-align: center;
+}
+.main-services .card .card-body div {
+  height: 50px;
+}
+.main-services .card .card-body div button {
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /*# sourceMappingURL=style.css.map */
