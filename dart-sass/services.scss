@@ -31,6 +31,24 @@
         }
 
         .card-body {
+            min-height: 400px;
+
+            svg {
+                height: auto;
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+
+            .btn-container {
+                padding: 0;
+                margin: auto;
+                left: 50%;
+                transform: translate(-50%);
+                bottom: 10px;
+                position: absolute;
+            }
+
             div {
                 height: 50px;
 
@@ -52,6 +70,7 @@
                     font-size: 20px;
                     position: absolute;
                     bottom: 0;
+
                     &:hover {
                         color: $blue;
                     }
@@ -67,3 +86,5 @@
         }
     }
 }
+
+// Production page

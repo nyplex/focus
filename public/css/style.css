@@ -404,6 +404,23 @@ aside h2 {
   color: #fff;
   text-align: center;
 }
+.main-services .card .card-body {
+  min-height: 400px;
+}
+.main-services .card .card-body svg {
+  height: auto;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.main-services .card .card-body .btn-container {
+  padding: 0;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 10px;
+  position: absolute;
+}
 .main-services .card .card-body div {
   height: 50px;
 }
