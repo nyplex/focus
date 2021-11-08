@@ -44,7 +44,7 @@ body {
   margin: -50px auto 75px auto;
 }
 
-.contact-icon {
+.contact-icon i {
   position: fixed;
   color: #fff;
   font-size: 40px;
@@ -53,8 +53,10 @@ body {
   border: solid 3px #5249ff8e;
   padding: 10px;
   border-radius: 100%;
+  z-index: 1;
+  background-color: #0e0e0e;
 }
-.contact-icon:hover {
+.contact-icon i:hover {
   color: #fdad00;
   cursor: pointer;
 }
@@ -409,6 +411,7 @@ aside h2 {
 }
 .main-services .card .card-body svg {
   height: auto;
+  max-height: 120px;
   display: block;
   width: 80%;
   margin: auto;

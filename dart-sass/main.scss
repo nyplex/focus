@@ -55,18 +55,21 @@ body {
 }
 
 .contact-icon {
-    position: fixed;
-    color: #fff;
-    font-size: 40px;
-    bottom: 20px;
-    right: 30px;
-    border: solid 3px $purple;
-    padding: 10px;
-    border-radius: 100%;
-
-    &:hover {
-        color: $yellow;
-        cursor: pointer;
+    i {
+        position: fixed;
+        color: #fff;
+        font-size: 40px;
+        bottom: 20px;
+        right: 30px;
+        border: solid 3px $purple;
+        padding: 10px;
+        border-radius: 100%;
+        z-index: 1;
+        background-color: $black;
+        &:hover {
+            color: $yellow;
+            cursor: pointer;
+        }
     }
 }
 
