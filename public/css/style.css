@@ -44,7 +44,7 @@ body {
   margin: -50px auto 75px auto;
 }
 
-.contact-icon i {
+.contact-icon {
   position: fixed;
   color: #fff;
   font-size: 40px;
@@ -56,7 +56,7 @@ body {
   z-index: 1;
   background-color: #0e0e0e;
 }
-.contact-icon i:hover {
+.contact-icon:hover {
   color: #fdad00;
   cursor: pointer;
 }
