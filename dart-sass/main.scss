@@ -5,6 +5,7 @@ $yellow: #fdad00;
 $black: #0e0e0e;
 $blue: #6c63ff;
 $purple: #5249ff8e;
+$dark-blue: #191729;
 
 body {
     margin: 0;
@@ -287,3 +288,4 @@ footer {
 
 @import 'index';
 @import 'services';
+@import 'portfolio';
