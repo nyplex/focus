@@ -72,6 +72,18 @@ body {
         }
 }
 
+//modal contact form style
+.modal-contact {
+    background-color: $dark-blue;
+    i {
+        font-size: 25px;
+        transition: all 0.2s;
+        &:hover {
+            color: $blue;
+        }
+    }
+}
+
 //Top navbar style
 .navbar {
     background-color: #191729;

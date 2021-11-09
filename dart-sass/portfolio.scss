@@ -59,20 +59,9 @@
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
-  left: -17px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent $yellow transparent transparent;
-}
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
-}
-
-.timeline ul li:nth-child(even) div::before {
-  right: -17px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent $yellow;
 }
 
 time {

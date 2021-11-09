@@ -62,6 +62,17 @@ body {
   cursor: pointer;
 }
 
+.modal-contact {
+  background-color: #191729;
+}
+.modal-contact i {
+  font-size: 25px;
+  transition: all 0.2s;
+}
+.modal-contact i:hover {
+  color: #6c63ff;
+}
+
 .navbar {
   background-color: #191729;
 }
@@ -517,20 +528,8 @@ aside h2 {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
-  left: -17px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #fdad00 transparent transparent;
-}
-
 .timeline ul li:nth-child(even) div {
   left: -439px;
-}
-
-.timeline ul li:nth-child(even) div::before {
-  right: -17px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #fdad00;
 }
 
 time {
