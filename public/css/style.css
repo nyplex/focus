@@ -260,6 +260,71 @@ body {
   transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
+.card {
+  background-color: #191729;
+  border: solid 3px #5249ff8e;
+  border-radius: 2%;
+}
+.card h5 {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card p {
+  color: #fff;
+  text-align: center;
+}
+
+.card-body {
+  min-height: 400px;
+}
+.card-body svg {
+  height: auto;
+  max-height: 120px;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.card-body .btn-container {
+  padding: 0;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 10px;
+  position: absolute;
+}
+.card-body div {
+  height: 50px;
+}
+.card-body div button {
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  box-shadow: inset 0 0 0 2px #fdad00;
+  color: #fdad00;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+  font-family: "Poppins";
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.card-body div button:hover {
+  color: #6c63ff;
+}
+.card-body div button::before,
+.card-body div button::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+}
+
 footer {
   border-top: solid 2px #5249ff8e;
   padding: 20px 0;
@@ -473,70 +538,6 @@ aside h2 {
 }
 .header-services p {
   font-size: 25px;
-}
-
-.main-services .card {
-  background-color: #191729;
-  border: solid 3px #5249ff8e;
-  border-radius: 2%;
-}
-.main-services .card h5 {
-  font-weight: 600;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-.main-services .card p {
-  color: #fff;
-  text-align: center;
-}
-.main-services .card .card-body {
-  min-height: 400px;
-}
-.main-services .card .card-body svg {
-  height: auto;
-  max-height: 120px;
-  display: block;
-  width: 80%;
-  margin: auto;
-}
-.main-services .card .card-body .btn-container {
-  padding: 0;
-  margin: auto;
-  left: 50%;
-  transform: translate(-50%);
-  bottom: 10px;
-  position: absolute;
-}
-.main-services .card .card-body div {
-  height: 50px;
-}
-.main-services .card .card-body div button {
-  left: 50%;
-  transform: translate(-50%, 0);
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 10px 15px;
-  box-shadow: inset 0 0 0 2px #fdad00;
-  color: #fdad00;
-  font-size: inherit;
-  font-weight: 700;
-  position: relative;
-  vertical-align: middle;
-  font-family: "Poppins";
-  font-size: 20px;
-  position: absolute;
-  bottom: 0;
-}
-.main-services .card .card-body div button:hover {
-  color: #6c63ff;
-}
-.main-services .card .card-body div button::before,
-.main-services .card .card-body div button::after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
 }
 
 .body-portfolio {

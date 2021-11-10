@@ -287,6 +287,79 @@ body {
     transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
+//card body style 
+.card {
+    background-color: #191729;
+    border: solid 3px $purple;
+    border-radius: 2%;
+
+    h5 {
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+    }
+}
+.card-body {
+    min-height: 400px;
+
+    svg {
+        height: auto;
+        max-height: 120px;
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .btn-container {
+        padding: 0;
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 10px;
+        position: absolute;
+    }
+
+    div {
+        height: 50px;
+
+        button {
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: none;
+            border: 0;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 10px 15px;
+            box-shadow: inset 0 0 0 2px $yellow;
+            color: $yellow;
+            font-size: inherit;
+            font-weight: 700;
+            position: relative;
+            vertical-align: middle;
+            font-family: "Poppins";
+            font-size: 20px;
+            position: absolute;
+            bottom: 0;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+
+        button::before,
+        button::after {
+            box-sizing: inherit;
+            content: "";
+            position: absolute;
+        }
+    }
+}
+
 //Footer style
 footer {
     border-top: solid 2px $purple;
