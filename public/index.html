@@ -15,18 +15,37 @@
 <body>
 <!-- Contact Form Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog m-0 m-sm-auto mt-sm-5">
     <div class="modal-content modal-contact">
-      <div class="modal-header">
+      <div class="modal-header border-0">
         <h5 class="modal-title poppins text-yellow text-uppercase" id="staticBackdropLabel">Get in Touch</h5>
         <button type="button" class="text-white bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+        <form class="contact-form row">
+            <div class="mb-3 col-12">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-2 col-12 col-sm-6">
+                <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 col-12 col-sm-6">
+                <label for="exampleInputPassword1" class="form-label">Company</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-5 col-12">
+                <label for="floatingTextarea" class="form-label">Project Details</label>
+                <textarea class="form-control" placeholder="Write your message here" id="floatingTextarea"></textarea>
+            </div>
+            <div class="mb-1 col-12">
+                <button type="submit" class="btn btn-primary col-3 mr-3">Submit</button>
+                <button type="button" class="btn btn-secondary col-3" data-bs-dismiss="modal">Close</button>
+            </div>
+            
+        </form>
       </div>
     </div>
   </div>

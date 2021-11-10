@@ -75,6 +75,11 @@ body {
 //modal contact form style
 .modal-contact {
     background-color: $dark-blue;
+    border: solid 3px $blue;
+    h5 {
+        font-weight: 600;
+        font-size: 25px;
+    }
     i {
         font-size: 25px;
         transition: all 0.2s;
@@ -82,6 +87,16 @@ body {
             color: $blue;
         }
     }
+    label {
+        color: #fff;
+    }
+    @media screen and(max-width: 576px) {
+        height: 100vh;
+        border: none;
+    }
+}
+.modal-open .container-fluid, .modal-open  .container {
+    -webkit-filter: blur(5px) grayscale(90%);
 }
 
 //Top navbar style

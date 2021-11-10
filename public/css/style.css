@@ -64,6 +64,11 @@ body {
 
 .modal-contact {
   background-color: #191729;
+  border: solid 3px #6c63ff;
+}
+.modal-contact h5 {
+  font-weight: 600;
+  font-size: 25px;
 }
 .modal-contact i {
   font-size: 25px;
@@ -71,6 +76,19 @@ body {
 }
 .modal-contact i:hover {
   color: #6c63ff;
+}
+.modal-contact label {
+  color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .modal-contact {
+    height: 100vh;
+    border: none;
+  }
+}
+
+.modal-open .container-fluid, .modal-open .container {
+  -webkit-filter: blur(5px) grayscale(90%);
 }
 
 .navbar {
