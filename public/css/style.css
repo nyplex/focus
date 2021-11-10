@@ -80,6 +80,19 @@ body {
 .modal-contact label {
   color: #fff;
 }
+.modal-contact .btn-primary {
+  border-width: 2px;
+  transition: all 0.3s;
+  font-weight: 600;
+  background-color: #5249ff8e;
+  border-color: #191729;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.modal-contact .btn-primary:hover {
+  border-color: #fdad00;
+}
 @media screen and (max-width: 576px) {
   .modal-contact {
     height: 100vh;
@@ -89,6 +102,7 @@ body {
 
 .modal-open .container-fluid, .modal-open .container {
   -webkit-filter: blur(5px) grayscale(90%);
+  filter: blur(5px) grayscale(90%);
 }
 
 .navbar {
