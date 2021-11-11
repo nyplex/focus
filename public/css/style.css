@@ -267,8 +267,11 @@ body {
 }
 .card h5 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   text-transform: uppercase;
+}
+.card ul {
+  font-size: 20px;
 }
 .card p {
   color: #fff;
@@ -386,8 +389,7 @@ footer .footer-links li a:hover {
 }
 
 header {
-  border-bottom: solid 2px #5249ff8e;
-  background-color: #0e0e0e;
+  background-color: transparent;
 }
 header img {
   width: 100%;
@@ -481,6 +483,18 @@ header img {
   box-sizing: inherit;
   content: "";
   position: absolute;
+}
+
+.menu-section .card {
+  transition: all 0.3s;
+}
+.menu-section .card:hover {
+  cursor: pointer;
+  border-color: #fdad00;
+  background-color: #1c1a2f;
+}
+.menu-section .card-body h4 {
+  font-size: 50px;
 }
 
 aside h2 {

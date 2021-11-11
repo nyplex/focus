@@ -295,8 +295,12 @@ body {
 
     h5 {
         font-weight: 600;
-        font-size: 30px;
+        font-size: 32px;
         text-transform: uppercase;
+    }
+
+    ul {
+        font-size: 20px;
     }
 
     p {
@@ -306,7 +310,6 @@ body {
 }
 .card-body {
     min-height: 400px;
-
     svg {
         height: auto;
         max-height: 120px;
