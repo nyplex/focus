@@ -145,7 +145,14 @@ body {
 }
 
 .navbar {
-  background-color: #191729;
+  background-color: #070920;
+}
+.navbar .slogan {
+  color: #fdad00;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: -12px;
+  display: block;
 }
 .navbar .navbar-brand {
   border-bottom: solid 2px transparent;
@@ -154,9 +161,6 @@ body {
 .navbar .navbar-brand:hover {
   color: #fdad00;
   border-bottom: solid 2px transparent;
-}
-.navbar .navbar-brand:hover span {
-  color: #fff;
 }
 .navbar .nav-link:focus {
   color: #fff;
@@ -270,6 +274,7 @@ body {
   font-weight: 600;
   font-size: 32px;
   text-transform: uppercase;
+  min-height: 72px;
 }
 .card ul {
   font-size: 20px;
@@ -285,9 +290,11 @@ body {
 .card-body svg {
   height: auto;
   max-height: 120px;
+  min-height: 120px;
   display: block;
   width: 80%;
   margin: auto;
+  margin-bottom: 25px;
 }
 .card-body .btn-container {
   padding: 0;
@@ -396,6 +403,12 @@ header img {
   width: 100%;
   max-width: 1440px;
   padding: 50px;
+}
+header p {
+  font-size: 30px;
+}
+header p span {
+  color: #fdad00;
 }
 
 .main-index {
@@ -566,6 +579,28 @@ aside h2 {
 }
 .header-services p {
   font-size: 25px;
+}
+
+.main-services .card {
+  background-color: #191729;
+  border: solid 3px #5249ff8e;
+  border-radius: 2%;
+}
+.main-services .card h5 {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.main-services .card p {
+  color: #fff;
+  text-align: center;
+}
+.main-services .card .card-body div {
+  height: 50px;
+}
+.main-services .card .card-body div button {
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .body-portfolio {

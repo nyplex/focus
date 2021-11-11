@@ -6,6 +6,13 @@ header {
         max-width: 1440px;
         padding: 50px;
     }
+
+    p {
+        font-size: 30px;
+        span {
+            color: $yellow;
+        }
+    }
 }
 
 .main-index {

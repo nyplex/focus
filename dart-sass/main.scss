@@ -154,18 +154,20 @@ body {
 
 //Top navbar style
 .navbar {
-    background-color: #191729;
+    background-color: #070920;
+    .slogan {
+        color: $yellow;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: -12px;
+        display: block;
+    }
     .navbar-brand {
         border-bottom: solid 2px transparent;
         font-size: 2.5rem;
 
         &:hover {
             color: $yellow;
-
-            span {
-                color: #fff;
-            }
-
             border-bottom: solid 2px transparent;
         }
     }
@@ -297,6 +299,7 @@ body {
         font-weight: 600;
         font-size: 32px;
         text-transform: uppercase;
+        min-height: 72px;
     }
 
     ul {
@@ -313,9 +316,11 @@ body {
     svg {
         height: auto;
         max-height: 120px;
+        min-height: 120px;
         display: block;
         width: 80%;
         margin: auto;
+        margin-bottom: 25px;
     }
 
     .btn-container {
