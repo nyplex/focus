@@ -155,7 +155,6 @@ body {
 //Top navbar style
 .navbar {
     background-color: #191729;
-
     .navbar-brand {
         border-bottom: solid 2px transparent;
         font-size: 2.5rem;
@@ -212,7 +211,8 @@ body {
         }
 
         color: #fff;
-        font-family: "Ubuntu";
+        font-family: "Poppins";
+        font-weight: 500;
         border-bottom: solid 2px transparent;
 
         &:hover {
