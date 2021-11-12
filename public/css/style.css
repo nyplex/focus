@@ -399,10 +399,21 @@ footer .footer-links li a:hover {
 .home-header {
   background-color: transparent;
 }
-.home-header img {
-  width: 100%;
-  max-width: 1440px;
-  padding: 50px;
+.home-header .container-video {
+  height: 50vh;
+}
+@media screen and (max-width: 576px) {
+  .home-header .container-video {
+    height: auto;
+  }
+}
+.home-header video {
+  margin-top: -200px;
+}
+@media screen and (max-width: 992px) {
+  .home-header video {
+    margin-top: 0;
+  }
 }
 .home-header p {
   font-size: 30px;
