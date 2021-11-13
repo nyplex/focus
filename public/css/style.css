@@ -590,6 +590,11 @@ aside h2 {
   padding-top: 50px;
   padding-left: 25px;
 }
+@media screen and (max-width: 992px) {
+  .header-services h1 {
+    padding: 0;
+  }
+}
 .header-services p {
   font-size: 25px;
 }

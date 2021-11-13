@@ -6,6 +6,9 @@
         font-weight: 800;
         padding-top: 50px;
         padding-left: 25px;
+        @media screen and(max-width: 992px) {
+            padding: 0;
+        }
     }
 
     p {
