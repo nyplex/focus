@@ -13,7 +13,7 @@
     <title>Focus!</title>
 </head>
 <body>
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"><!-- Contact Form Modal -->
+    <div role="alertdialog" class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"><!-- Contact Form Modal -->
         <div class="modal-dialog m-0 m-sm-auto mt-sm-5">
             <div class="modal-content modal-contact">
             <div class="modal-header border-0">
@@ -28,12 +28,12 @@
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-2 col-12 col-sm-6">
-                        <label for="exampleInputPassword1" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
+                        <label for="nameInput" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="nameInput">
                     </div>
                     <div class="mb-3 col-12 col-sm-6">
-                        <label for="exampleInputPassword1" class="form-label">Company</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
+                        <label for="companyInput" class="form-label">Company</label>
+                        <input type="text" class="form-control" id="companyInput">
                     </div>
                     <div class="mb-5 col-12">
                         <label for="floatingTextarea" class="form-label">Project Details</label>
@@ -50,9 +50,9 @@
     
     <i data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="fas fa-comment-dots contact-icon"></i><!-- icon contact -->
 
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav aria-label="Navigation Menu" class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand poppins" href="index.html">FOCUS<br><span class="slogan ubuntu">Creative Digital Agency</span></a>
+            <a aria-label="Home button" class="navbar-brand poppins" href="index.html">FOCUS<br><span class="slogan ubuntu">Creative Digital Agency</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
@@ -61,7 +61,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li  class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="production.html">Production</a></li>
@@ -84,8 +84,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="container-video col col-12 overflow-hidden p-0">
-                    <video width="100%" height="auto" autoplay muted>
+                    <video autoplay muted>
                         <source src="media/intro.mp4" type="video/mp4">
+                        <p>Your browser doesn't support HTML5 video.</p>
                       </video>
                 </div>
                 <div class="col col-12 col-md-10 col-lg-8 col-xxl-6 text-white m-auto text-center ubuntu mt-3">
@@ -112,7 +113,7 @@
                         <p>
                         Digital content is the perfect way to demonstrate the features and benefits of a company’s new or existing products. From creative development to shooting, the team at Focus! Understand the complexity of creating high quality content.
                         </p>
-                        <a href="portfolio.html"><button class="draw meet">CHECK OUR WORK</button></a>
+                        <button class="draw meet" onclick="window.location.href='portfolio.html'">CHECK OUR WORK</button>
                     </div>
                 </div>
             </div>
@@ -125,7 +126,7 @@
                         <p>
                         Focus guide your marketing strategy and help identify your customer’s needs. Through extensive brand research and incredibly insightful data, we get to understand your business expectations and what you have to offer to your customers. From that onwards, we determine how best to connect you.
                         </p>
-                        <a href="strategy.html"><button id="strategy-button" class="draw meet">LEARN MORE</button></a>
+                        <button id="strategy-button" class="draw meet" onclick="window.location.href='strategy.html'">LEARN MORE</button>
                     </div>
                     <div class="col col-12 col-lg-6 text-center order-0 order-lg-1">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1" width="1096.46" height="805.97" viewBox="0 0 1096.46 805.97">
@@ -148,7 +149,7 @@
                         <p>
                         We can help you to reach your target audience through creating social media posts which are engaging, and which represent your brand or business. We’ll do this with tailored share-worthy content for each social media network, professional profile aesthetics, and industry-aware engagement.
                         </p>
-                        <a href="services.html"><button class="draw meet">SEE OUR SERVICES</button></a>
+                        <button class="draw meet" onclick="window.location.href='services.html'">SEE OUR SERVICES</button>
                     </div>
                 </div>
             </div>
