@@ -15,9 +15,15 @@
 
 .main-services {
     .card {
+        min-height: 412px;
         background-color: #191729;
-        border: solid 3px $purple;
-        border-radius: 2%;
+        border-radius: 0;
+        transition: all 0.3s;
+        border: 0;
+        box-sizing: border-box;
+        margin: 0;
+        box-shadow: inset 0 0 0 3px $yellow;
+        position: relative;
 
         h5 {
             font-weight: 600;
@@ -28,17 +34,22 @@
         p {
             color: #fff;
             text-align: center;
+            font-family: "Ubuntu";
+            font-weight: 500;
+            font-size: 18px;
         }
+    }
+    .card::before,
+    .card::before,
+    .card::after {
+        border-width: 4px;
+        box-sizing: inherit;
+        content: "";
+        position: absolute;
+    }
 
-        .card-body {
-            div {
-                height: 50px;
-
-                button {
-                    left: 50%;
-                    transform: translate(-50%, 0);
-                }
-            }
-        }
+    .card:hover {
+        cursor: pointer;
+        background-color: #1c1a2f;
     }
 }

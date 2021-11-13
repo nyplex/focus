@@ -1,12 +1,19 @@
-header {
+.home-header {
     background-color: transparent;
 
-    img {
-        width: 100%;
-        max-width: 1440px;
-        padding: 50px;
+    .container-video {
+        height: 50vh;
+        @media screen and (max-width: 576px) {
+            height: auto;
+        }
     }
 
+    video {
+        margin-top: -200px;
+        @media screen and (max-width: 992px) {
+            margin-top: 0;
+        }
+    }
     p {
         font-size: 30px;
         span {
@@ -116,6 +123,8 @@ header {
         margin: 0;
         box-shadow: inset 0 0 0 3px $yellow;
         position: relative;
+        width: auto !important;
+        max-width: 20rem !important;
     }
 
     .card::before,
