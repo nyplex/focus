@@ -9,6 +9,8 @@
     }
 
     video {
+        width: 100%;
+        height: auto;
         margin-top: -200px;
         @media screen and (max-width: 992px) {
             margin-top: 0;
@@ -72,6 +74,11 @@
     }
 
     button {
+        a {
+            text-decoration: none;
+            color: $yellow;
+            transition: all 0.3s;
+        }
         background: none;
         border: 0;
         box-sizing: border-box;
@@ -88,7 +95,11 @@
         position: absolute;
         bottom: 0;
         left: 12px;
-
+        &:hover {
+            a {
+                color: $blue;
+            }
+        }
         @media screen and(max-width: 992px) {
             position: relative;
             left: 0;
