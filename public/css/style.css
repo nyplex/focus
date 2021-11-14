@@ -342,8 +342,15 @@ footer {
   color: #fff;
   font-family: "Poppins";
 }
-footer p {
+footer address {
   font-weight: 200;
+}
+footer address a {
+  color: #fff;
+  text-decoration: none;
+}
+footer address a:hover {
+  color: #fdad00;
 }
 footer span {
   font-weight: 100;

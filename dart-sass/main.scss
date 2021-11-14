@@ -375,7 +375,14 @@ footer {
     color: #fff;
     font-family: "Poppins";
 
-    p {
+    address {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                color: $yellow;
+            }
+        }
         font-weight: 200;
     }
 
