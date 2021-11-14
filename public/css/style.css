@@ -733,6 +733,13 @@ time {
 
 iframe {
   margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.timeline h5 {
+  margin-bottom: -30px;
+  font-size: 23px;
 }
 
 /* EFFECTS
