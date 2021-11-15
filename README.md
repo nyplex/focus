@@ -1,33 +1,78 @@
-<h1 align="center">Focus Website</h1>
+<h1 style="color:#fdad00;font-weight:700" align="center">FOCUS WEBSITE</h1>
 
-<p align="center">This is the README file for FOCUS website. You will find here a bunch of information regarding the code and the design.</p>
+*This is the README file for FOCUS website. You will find here a bunch of information regarding the User Experience Design, the business and users needs and the code.*
+
+Focus is a creative digital company. They product video and photo content for digital platform. They create some marketing digital strategy for their clients and finally they can take care of the media diffusion and social media management. 
+
+Focus Website is an application that gives the users a good understanding of what Focus is all about. 
+The user will have the opportunity to see their work through a portfolio and some images/videos galleries displayed on the website.  
+The users must understand what Focus is about in the first few seconds after they arrived on the website.
+
+The main goal during the user’s visit is for they to contact the company. TO reach this goal the website is implatemented with some contact links, contant form, call-to-action buton etc.
+
+The website have all the information the users need with a minimal design, easy to understand and easy to navigate.
 
 [Check out the webste here.](https://###)
 
-## User Experience Design
+![alt text](focus.png)
 
-- ### User stories
 
-  - #### First time user 
+<h1 style="color:#fdad00;font-weight:500">User Experience</h1>
 
-      - User's eyes must be catched by a strong and stunning design. 
-      - User must understand what is Focus and what they are doing.
-      - The user must be able to navigate easily and find all the answer he needs.
-      - The website is intuitive
+* <h2 style="color:#6c63ff;font-weight:600">Business needs</h2>
+        
+        lorem lipsum blablaba
 
-  - #### Returning user 
+* <h2 style="color:#6c63ff;font-weight:600">User's needs</h2>
+        
+        lorem lipsmun blabalba
 
-      - User must be able to contact the organisation anywhere on the website. 
-      - User must be able to find complete and accurate answer to his questions.
-      - User must be able to see the work of Focus (what they do).
+* <h2 style="color:#6c63ff;font-weight:600">Website requirements</h2>
+        
+        llorem lipsum blablabal
 
-  - #### Frequent user
+* <h2 style="color:#6c63ff;font-weight:600">Website Structure</h2>
+        
+        lorem lispum blablablab
 
-      - User must be able to see if there is any udpate on thr website 
-      - User must be able to see for any discount or price changes
+* <h2 style="color:#6c63ff;font-weight:600">Usage Scenario</h2>
+        
+        lorem lispum vkavka
 
-- ### Design
 
-  - #### Test
+<h1 style="color:#fdad00;font-weight:500">Design</h1>
 
-      - The mains colors used on the website are dark blue and yellow
+* <h2 style="color:#6c63ff;font-weight:600">Wireframes</h2>
+
+        The mains colors used on the website are dark blue and yellow
+
+* <h2 style="color:#6c63ff;font-weight:600">Colors</h2>
+
+        The mains colors used on the website are dark blue and yellow
+
+* <h2 style="color:#6c63ff;font-weight:600">Typography</h2>
+
+        The mains colors used on the website are dark blue and yellow
+
+* <h2 style="color:#6c63ff;font-weight:600">Illustrations/Media</h2>
+
+        The mains colors used on the website are dark blue and yellow
+
+
+<h1 style="color:#fdad00;font-weight:500">Technologies</h1>
+
+      - HTML
+      - CSS
+      - BOOTSTRAP
+
+<h1 style="color:#fdad00;font-weight:500">Features</h1>
+
+    lorem lipusm blablablabalblb
+
+<h1 style="color:#fdad00;font-weight:500">Testing</h1>
+
+    lorem lipsum blabalbalbalb
+
+<h1 style="color:#fdad00;font-weight:500">Credits</h1>
+
+    lorem lipusm blabalbalab
