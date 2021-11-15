@@ -17,44 +17,44 @@ The website have all the information the users need with a minimal design, easy 
 ![alt text](focus.png)
 
 
-<h1 style="color:#fdad00;font-weight:500">User Experience</h1>
+# User Experience
 
-* <h2 style="color:#6c63ff;font-weight:600">Business needs</h2>
+# * Business needs
         
         lorem lipsum blablaba
 
-* <h2 style="color:#6c63ff;font-weight:600">User's needs</h2>
+# * User's needs
         
         lorem lipsmun blabalba
 
-* <h2 style="color:#6c63ff;font-weight:600">Website requirements</h2>
+# * Website requirements
         
         llorem lipsum blablabal
 
-* <h2 style="color:#6c63ff;font-weight:600">Website Structure</h2>
+# * Website Structure
         
         lorem lispum blablablab
 
-* <h2 style="color:#6c63ff;font-weight:600">Usage Scenario</h2>
+# * Usage Scenario
         
         lorem lispum vkavka
 
 
 <h1 style="color:#fdad00;font-weight:500">Design</h1>
 
-* <h2 style="color:#6c63ff;font-weight:600">Wireframes</h2>
+# * Wireframes
 
         The mains colors used on the website are dark blue and yellow
 
-* <h2 style="color:#6c63ff;font-weight:600">Colors</h2>
+# * Colors
 
         The mains colors used on the website are dark blue and yellow
 
-* <h2 style="color:#6c63ff;font-weight:600">Typography</h2>
+# * Typography
 
         The mains colors used on the website are dark blue and yellow
 
-* <h2 style="color:#6c63ff;font-weight:600">Illustrations/Media</h2>
+# * Illustrations/Media
 
         The mains colors used on the website are dark blue and yellow
 
