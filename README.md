@@ -12,7 +12,7 @@ The main goal during the user’s visit is for they to contact the company. TO r
 
 The website have all the information the users need with a minimal design, easy to understand and easy to navigate.
 
-[Check out the webste here.](https://###)
+[Check out the webste here.](https://nyplex.github.io/focus/index.html)
 
 ![alt text](focus.png)
 
@@ -116,7 +116,7 @@ The website is fully responsive (mobile, tablet, laptop and desktop). All extern
 
 <h1 align="center">Deployment</h1>
 
-Focus website has been deployed using GitHub Pages from the "live" branch. To check the live website [click here.](https://###)
+Focus website has been deployed using GitHub Pages from the "live" branch. To check the live website [click here.](https://nyplex.github.io/focus/index.html)
 
 <h1 align="center">Credits</h1>
 
