@@ -50,33 +50,53 @@ Focus website will be divided into 4 mains categories:
 
 ## Usage Scenario
         
-lorem lispum vkavka
+- First Time Users
+
+    When the users land on the website for the first page, their eyes are catched by a good design with a strong branding. The users understand what is Focus in the first few seconds. During their first visit, the users will be able to navigate easily on the application. 
+    On the home page, the users will find information abour the company's services. Each section has a call-to-action button in order for them to get more information or to contact Focus.
+
+- Returning Users
+  
+    The users that are coming back already know what Focus is and what Focus is doing. The main goals for the returning users is to answer all the questions they might have. The users are able to navigate on the website to collect all the information they need regarding the comapany's products/services.
 
 
 <h1 align="center">Design</h1>
 
 ## Wireframes
 
-The mains colors used on the website are dark blue and yellow
+I used Balsmamic to make the wireframe. 
+  - Home page
+  - Services
+  - Portfolio
+  - Production
+  - Diffusion
+  - Strategy
 
 ## Colors
 
-The mains colors used on the website are dark blue and yellow
+The mains colors used on the website are dark blue and yellow. The text is white. 
+The yellow color does not change on the website. The blue can slighty change on website from light purple to dark blue. I used a very dark grey for the body background. This are the mains colors used on the website:
+
+  - Yellow #fdad00 <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fdad00" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+  - Dark Grey #0e0e0e <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#0e0e0e" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+  - Dark Blue #191729 <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#191729" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+  - Purple #5249ff8e <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#5249ff8e" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+  - Light Purple #6c63ff <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#6c63ff" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
 
 ## Typography
 
-The mains colors used on the website are dark blue and yellow
+The font used for all the paragraph is Ubuntu. For all the headings I used Poppins. For any special text I used Tajawal. Those 3 fonts are imported using google fonts.
 
 ## Illustrations/Media
 
-The mains colors used on the website are dark blue and yellow
-
+The video header on the home page has been downloaded on Vimeo. All the svg illustrations have been downloaded on [Undraw.](https://undraw.co/illustrations).
+The clients logo have been dowloaded on google images. All the icons are from Fontawesome. Finally all the video on the Portfolio page have been downloaded on Vimeo.
 
 <h1 align="center">Technologies</h1>
 
 - HTML
-- CSS
-- BOOTSTRAP
+- SASS/CSS
+- BOOTSTRAP 5.1
 
 <h1 align="center">Features</h1>
 
