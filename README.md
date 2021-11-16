@@ -77,11 +77,11 @@ I used Balsmamic to make the wireframe.
 The mains colors used on the website are dark blue and yellow. The text is white. 
 The yellow color does not change on the website. The blue can slighty change on website from light purple to dark blue. I used a very dark grey for the body background. This are the mains colors used on the website:
 
-  - Yellow #fdad00 <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fdad00" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
-  - Dark Grey #0e0e0e <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#0e0e0e" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
-  - Dark Blue #191729 <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#191729" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
-  - Purple #5249ff8e <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#5249ff8e" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
-  - Light Purple #6c63ff <svg width="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square" class="svg-inline--fa fa-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#6c63ff" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+  - Yellow #fdad00
+  - Dark Grey #0e0e0e
+  - Dark Blue #191729
+  - Purple #5249ff8e
+  - Light Purple #6c63ff
 
 ## Typography
 
@@ -100,7 +100,7 @@ The clients logo have been dowloaded on google images. All the icons are from Fo
 
 <h1 align="center">Features</h1>
 
-lorem lipusm blablablabalblb
+In terms of features, the website uses bootstrap. The navbar stays stick on the top of the pages. Also when the user click on the contact icon/links a contact modal window opens. The last feature is on the portfolio page, when the user scroll down, the content appear using a fade transition (this feature has been written by someone else, see credits section).
 
 <h1 align="center">Testing</h1>
 
