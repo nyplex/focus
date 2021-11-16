@@ -57,35 +57,35 @@ lorem lispum vkavka
 
 ## Wireframes
 
-        The mains colors used on the website are dark blue and yellow
+The mains colors used on the website are dark blue and yellow
 
 ## Colors
 
-        The mains colors used on the website are dark blue and yellow
+The mains colors used on the website are dark blue and yellow
 
 ## Typography
 
-        The mains colors used on the website are dark blue and yellow
+The mains colors used on the website are dark blue and yellow
 
 ## Illustrations/Media
 
-        The mains colors used on the website are dark blue and yellow
+The mains colors used on the website are dark blue and yellow
 
 
 <h1 align="center">Technologies</h1>
 
-      - HTML
-      - CSS
-      - BOOTSTRAP
+- HTML
+- CSS
+- BOOTSTRAP
 
 <h1 align="center">Features</h1>
 
-    lorem lipusm blablablabalblb
+lorem lipusm blablablabalblb
 
 <h1 align="center">Testing</h1>
 
-    lorem lipsum blabalbalbalb
+lorem lipsum blabalbalbalb
 
 <h1 align="center">Credits</h1>
 
-    lorem lipusm blabalbalab
+lorem lipusm blabalbalab
