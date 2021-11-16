@@ -19,21 +19,30 @@ The website have all the information the users need with a minimal design, easy 
 
 # User Experience
 
-# * Business needs
+# *Business needs
         
-        lorem lipsum blablaba
+        The two mains goals for the users during their visit are to contact the company and also to purchase their products. The others goals are showing the company's work, answer any question the users could have direcly on the website.  
 
 # * User's needs
         
-        lorem lipsmun blabalba
+        The users want to see the company's work. They also want to understand rapidly what they are doing and how they are doing it. Users want to have as much information as possible regarding the products they want to buy and finally they want to be able to contact the company easily.
 
 # * Website requirements
         
-        llorem lipsum blablabal
+        In order to achieve the businees and user's need the website have some requirements:
+
+            - portfolio
+            - contact form/links
+            - list of services
+            - catchy design
 
 # * Website Structure
         
-        lorem lispum blablablab
+    Focus website will be divided into 4 mains categories:
+        - **Demonstration**: The website shows the users what the company does and how it does it. 
+        - **Information**: The website gives the users all the answer/information they need.
+        - **Communication**: The users can communicate with the company easily.
+
 
 # * Usage Scenario
         
