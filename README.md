@@ -104,8 +104,19 @@ In terms of features, the website uses bootstrap. The navbar stays stick on the 
 
 <h1 align="center">Testing</h1>
 
-lorem lipsum blabalbalbalb
+When the users arrive on the home page, they are welcomed by a video header follwed by a quick presentation of the company. The next section is a spotlight of the mains services of Focus. Finally the users can see the current clients of the company. At the bottom of the page, the users are invited to contact the company.
+
+On the services pages ("production", "strategy", "diffusion"), the users can learn more about what Focus can offer. They will learn more about each products and services. 
+
+Finally, on the portfolio page, the users can check the company's work. The portfolio page page uses a timeline display from the most recent work to oldest ones. 
+
+On each pages of the website the users have the possibility to easily to get in touch with company using a static contact icon and a contact link on the navbar. 
+
+The website is fully responsive (mobile, tablet, laptop and desktop). All external links will open in a new tab. The website has been tested on different brwoser. 
+
+<h1 align="center">Deployment</h1>
+
+Focus website has been deployed using GitHub Pages from the "live" branch. To check the live website [click here.](https://###)
 
 <h1 align="center">Credits</h1>
 
-lorem lipusm blabalbalab
