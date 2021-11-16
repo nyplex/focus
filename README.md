@@ -1,4 +1,4 @@
-<h1 style="color:#fdad00;font-weight:700" align="center">FOCUS WEBSITE</h1>
+<h1 align="center">FOCUS WEBSITE</h1>
 
 *This is the README file for FOCUS website. You will find here a bunch of information regarding the User Experience Design, the business and users needs and the code.*
 
@@ -120,3 +120,10 @@ Focus website has been deployed using GitHub Pages from the "live" branch. To ch
 
 <h1 align="center">Credits</h1>
 
+- MEDIA
+
+    Lrem Lipsum 
+
+- CODE 
+
+    lorem lipsum
