@@ -374,7 +374,10 @@ footer {
     padding: 20px 0;
     color: #fff;
     font-family: "Poppins";
-
+    margin-bottom: 0;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 75px;
+    }
     address {
         a {
             color: #fff;
