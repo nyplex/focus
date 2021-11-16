@@ -116,14 +116,27 @@ The website is fully responsive (mobile, tablet, laptop and desktop). All extern
 
 <h1 align="center">Deployment</h1>
 
-Focus website has been deployed using GitHub Pages from the "live" branch. To check the live website [click here.](https://nyplex.github.io/focus/index.html)
+Focus website has been deployed using GitHub Pages from the master branch. To check the live website [click here.](https://nyplex.github.io/focus/index.html).
+You can clone the project usit "git clone" command in your terminal and pasting https://github.com/nyplex/focus.git
+
+The styling on this project has been done using the preprocessor SASS. You download SASS [here.](https://sass-lang.com/install)
 
 <h1 align="center">Credits</h1>
 
+
 - MEDIA
 
-    Lrem Lipsum 
+    The video header has been downloaded on Vimeo.
+    All the SVG illustrations are from  [Undraw.](https://undraw.co/illustrations)
+    All the icons are from [Font Awesome.](https://fontawesome.com/)
+    All the client's logo are from Google Images.
+    All the videos on the portfolio page are from Youtube.
 
 - CODE 
 
-    lorem lipsum
+    All the HTML/CSS code has been written by me using bootstrap mainly for the responsivity of the website with the exception of two features:
+
+    * The portfolio animation (JavaScript & CSS) has been written by [George Soukos.](https://georgemartsoukos.com/) and modified by me to fit the overall design of the website.
+    * To make the CSS hover animation on the buttons I have used this [Exemple](https://codepen.io/giana/pen/xdXpJB) and modified the code to fit my needs  
+  
+    
