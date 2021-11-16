@@ -17,71 +17,75 @@ The website have all the information the users need with a minimal design, easy 
 ![alt text](focus.png)
 
 
-# User Experience
+<h1 align="center">User Experience</h1>
 
-# *Business needs
+## Business needs
         
-        The two mains goals for the users during their visit are to contact the company and also to purchase their products. The others goals are showing the company's work, answer any question the users could have direcly on the website.  
+The two mains goals for the users during their visit are to contact the company and also to purchase their products.
 
-# * User's needs
+The others goals are showing the company's work, answer any question the users could have direcly on the website.  
+
+## User's needs
         
-        The users want to see the company's work. They also want to understand rapidly what they are doing and how they are doing it. Users want to have as much information as possible regarding the products they want to buy and finally they want to be able to contact the company easily.
+The users want to see the company's work. They also want to understand rapidly what they are doing and how they are doing it. 
 
-# * Website requirements
+Users want to have as much information as possible regarding the products they want to buy and finally they want to be able to contact the company easily.
+
+## Website requirements
         
-        In order to achieve the businees and user's need the website have some requirements:
+In order to achieve the businees and user's need the website have some requirements:
+- portfolio
+- contact form/links
+- list of services
+- catchy design
 
-            - portfolio
-            - contact form/links
-            - list of services
-            - catchy design
-
-# * Website Structure
+## Website Structure
         
-    Focus website will be divided into 4 mains categories:
-        - **Demonstration**: The website shows the users what the company does and how it does it. 
-        - **Information**: The website gives the users all the answer/information they need.
-        - **Communication**: The users can communicate with the company easily.
+Focus website will be divided into 4 mains categories:
+
+- **Demonstration**: The website shows the users what the company does and how it does it. 
+- **Information**: The website gives the users all the answer/information they need.
+- **Communication**: The users can communicate with the company easily.
 
 
-# * Usage Scenario
+## Usage Scenario
         
-        lorem lispum vkavka
+lorem lispum vkavka
 
 
-<h1 style="color:#fdad00;font-weight:500">Design</h1>
+<h1 align="center">Design</h1>
 
-# * Wireframes
+## Wireframes
 
         The mains colors used on the website are dark blue and yellow
 
-# * Colors
+## Colors
 
         The mains colors used on the website are dark blue and yellow
 
-# * Typography
+## Typography
 
         The mains colors used on the website are dark blue and yellow
 
-# * Illustrations/Media
+## Illustrations/Media
 
         The mains colors used on the website are dark blue and yellow
 
 
-<h1 style="color:#fdad00;font-weight:500">Technologies</h1>
+<h1 align="center">Technologies</h1>
 
       - HTML
       - CSS
       - BOOTSTRAP
 
-<h1 style="color:#fdad00;font-weight:500">Features</h1>
+<h1 align="center">Features</h1>
 
     lorem lipusm blablablabalblb
 
-<h1 style="color:#fdad00;font-weight:500">Testing</h1>
+<h1 align="center">Testing</h1>
 
     lorem lipsum blabalbalbalb
 
-<h1 style="color:#fdad00;font-weight:500">Credits</h1>
+<h1 align="center">Credits</h1>
 
     lorem lipusm blabalbalab
