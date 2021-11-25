@@ -92,6 +92,10 @@ The font used for all the paragraph is Ubuntu. For all the headings I used Poppi
 The video header on the home page has been downloaded on Vimeo. All the svg illustrations have been downloaded on [Undraw.](https://undraw.co/illustrations).
 The clients logo have been dowloaded on google images. All the icons are from Fontawesome. Finally all the video on the Portfolio page have been downloaded on Vimeo.
 
+## Accessibility 
+
+The website is using the latest features in term of accessibility. I have chosen a strong contrast between the font color and the background color (white and dark blue). I have used lots of "aria" attributes on the HTML code in order for the screen readers to work with the website. Each media is using the "alt" attribute. During the development process, I have realized the importance of accessiblity and I had to change the website's layout and design couple of times (changing fonts, changing colors, layout etc.). 
+
 <h1 align="center">Technologies</h1>
 
 - HTML
